@@ -17,6 +17,9 @@ pip install -r requirements.txt
 * Download SWR data of a period to a local directory.
 
 ```python
+from HimawariDownloader import HimawariDownloader
+from datetime import datetime, timedelta
+
 # set up start time and end time
 start_time = datetime(2021, 5, 11, 3)
 end_time = start_time + timedelta(hours=4)
